@@ -1,109 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--title-->
     <title>Ballet one page free website</title>
     <!--styles-->
-    <style>
-        body {margin:0;}
-        ul {list-style-type: none;
-            margin: 0;
-            padding-left: 550px;
-            overflow: hidden;
-            background-color: rgb(255, 254, 254);
-            position: fixed;
-            top: 0;
-            width: 100%;
-            z-index: 1;
-            border-bottom-style: solid;
-            border-width: 0.5px;
-            border-color:dimgrey;}
-        .logo{list-style-type: none;
-              margin: 0;
-              padding-left: 150px;
-              overflow: hidden;
-              background-color: rgb(255, 254, 254);
-              position: fixed;
-              top: 0;
-              width: 10%;
-              z-index: 2;}
-        .right {
-            position: absolute;
-            right: 250px;
-            top: 63px;
-            width: 600px;
-            padding: 0px;}
-        li{float: left;}
-        li a{display: block;
-             color: black;
-             text-align: right;
-             padding: 14px 16px ;
-             text-decoration: none;} 
-        li a:hover:not(.active) {
-             color:cornflowerblue;}
-        .active {color: cornflowerblue;}
-        .clearfix {overflow: auto;}
-        .img2 {float: right;
-               padding-right: 400px;}
-        .readbutton {background-color: cornflowerblue;
-                     border: solid;
-                     border-color: white;
-                     border-width: thin;
-                     color: white;
-                     padding: 15px 32px;
-                     text-align: center;
-                     text-decoration: none;
-                     display: inline-block;
-                     font-size: 16px;
-                     margin: 4px 2px;
-                     cursor: pointer;
-                     }
-        .readbutton:hover{background-color: white;
-                          color: cornflowerblue;
-                          text-decoration: underline;
-                          text-decoration-color: cornflowerblue;}
-                          
-    </style>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
 </head>
+
 <body>
-    <!--title bar-->
-    <ul>
-        <li><a class="active" href="#home"><b>HOME</b></a></li>
-        <li><a href="#about us"><b>ABOUT US</b></a></li>
-        <li><a href="#services"><b>SERVICES</b></a></li>
-        <li><a href="#portfolio"><b>PORTFOLIO</b></a></li>
-        <li><a href="#team"><b>TEAM</b></a></li>
-        <li><a href="#contact"><b>CONTACT</b></a></li>
-    </ul>
-    <!--logo-->
-    <img class="logo" src="logo.png" alt="logo">
+
+    <div class="nav-bar">
+        <!--logo-->
+        <img class="logo" src="./assets/img/logo.png" alt="logo">
+        <!--title bar-->
+        <div class="nav-links">
+            <ul>
+                <li><a class="active" href="#home"><b>HOME</b></a></li>
+                <li><a href="#about us"><b>ABOUT US</b></a></li>
+                <li><a href="#services"><b>SERVICES</b></a></li>
+                <li><a href="#portfolio"><b>PORTFOLIO</b></a></li>
+                <li><a href="#team"><b>TEAM</b></a></li>
+                <li><a href="#contact"><b>CONTACT</b></a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+
     <!--front page-->
-    <div style="padding:150px;margin-top:20px;background-color:cornflowerblue;">
-        <h2 style= "color: white;font-size: 40px;">The <strong style="color: orange;font-size: 50px;">BEST</strong> One Page <br>Web Template</h2>
-        <p style="color: white;opacity: 0.7;">Lorem Ipsum is simply dummy text of the printing and type <br>setting industry. Lorem Ipsum has been the galley of type and<br> scrambled it to make a type specimen.</p>
-        <img class="right" src="main_device_image.png" alt="image" >
+    <div style="padding:150px;background-color:cornflowerblue;">
+        <h2 style="color: white;font-size: 40px;">The <strong style="color: orange;font-size: 50px;">BEST</strong> One
+            Page <br>Web Template</h2>
+        <p style="color: white;opacity: 0.7;">Lorem Ipsum is simply dummy text of the printing and type <br>setting
+            industry. Lorem Ipsum has been the galley of type and<br> scrambled it to make a type specimen.</p>
+        <img class="right" src="./assets/img/img1.png" alt="image">
         <a href="#" class="readbutton">READ MORE</a>
     </div>
     <br>
     <!--about us page-->
-    <div class="clearfix" >
+    <div class="clearfix">
         <h2 style="padding-left: 150px; text-align: center;font-size: x-large;">ABOUT US</h2>
         <br>
         <br>
         <img class="img2" src="about-img.jpg" alt="about-img" width="300" height="300">
         <h3 style="padding-left: 150px;"><b>Lorem Ipsum has been the industry's standard dummy text ever..</b></h3>
-        <p style="font-size: 15px;opacity: 0.7;padding-left: 150px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br> when an unknown printer took a galley of type and scrambled it to make a type <br> specimen book.PageMaker including versions of Lorem Ipsum.</p>
-        <p style="font-size: 15px;opacity: 0.7;padding-left: 150px;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <br> when an unknown printer took a galley of type and scrambled it to make a type <br> specimen book. It has survived not only five centuries, but also the leap into <br> electronic typesetting, remaining essentially unchanged like Aldus PageMaker <br> including versions of Lorem Ipsum.</p>
+        <p style="font-size: 15px;opacity: 0.7;padding-left: 150px;">Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            <br> when an unknown printer took a galley of type and scrambled it to make a type <br> specimen
+            book.PageMaker including versions of Lorem Ipsum.</p>
+        <p style="font-size: 15px;opacity: 0.7;padding-left: 150px;">Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry. <br> Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+            <br> when an unknown printer took a galley of type and scrambled it to make a type <br> specimen book. It
+            has survived not only five centuries, but also the leap into <br> electronic typesetting, remaining
+            essentially unchanged like Aldus PageMaker <br> including versions of Lorem Ipsum.</p>
     </div>
     <!--services page-->
-    <div style="padding: 300px;margin-top: 100px;background-color:lightgray;">
-        <h2 style="padding-left: 150px; text-align: center;font-size: x-large;">SERVICES</h2>
+    <div class="services-section">
+        <div style="background-color:lightgray; padding: 40px;">
+            <h2 style="text-align: center;font-size: x-large;">SERVICES</h2>
+            <div class="services-img">
+                <img src="./assets/img/android.png" alt="Cinque Terre" width="400" height="300">
+                <img src="./assets/img/android.png" alt="Cinque Terre" width="400" height="300">
+                <img src="./assets/img/android.png" alt="Cinque Terre" width="400" height="300">
+                <img src="./assets/img/android.png" alt="Cinque Terre" width="400" height="300">
+                <img src="./assets/img/android.png" alt="Cinque Terre" width="400" height="300">
+                <img src="./assets/img/android.png" alt="Cinque Terre" width="400" height="300">
 
+            </div>
+        </div>
     </div>
-    
-    
-    
+
+
+
+
 </body>
+
 </html>
