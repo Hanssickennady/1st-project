@@ -95,3 +95,10 @@ li a:hover:not(.active) {
 .services-section{
     margin: 20px 0;
 }
+.gallery-img{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
