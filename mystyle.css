@@ -1,82 +1,92 @@
 body {
-  margin: 0;
-  font-family: "Raleway", sans-serif;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
 }
+
 ul {
-  list-style-type: none;
-  margin: 0;
-  overflow: hidden;
-  background-color: rgb(255, 254, 254);
-  top: 0;
-  width: 100%;
-  z-index: 1;
-  border-bottom-style: solid;
-  border-width: 0.5px;
-  border-color: dimgrey;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(255, 254, 254);
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    border-color: dimgrey;
 }
+
 .logo {
-  list-style-type: none;
-  margin: 0;
-  padding-left: 150px;
-  overflow: hidden;
-  background-color: rgb(255, 254, 254);
-  top: 0;
-  width: 10%;
-  z-index: 2;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 150px;
+    overflow: hidden;
+    background-color: rgb(255, 254, 254);
+    top: 0;
+    width: 10%;
+    z-index: 2;
 }
+
 .right {
-  position: absolute;
-  right: 250px;
-  top: 63px;
-  width: 600px;
-  padding: 0px;
+    position: absolute;
+    right: 250px;
+    top: 63px;
+    width: 600px;
+    padding: 0px;
 }
+
 li {
-  float: left;
+    float: left;
 }
+
 li a {
-  display: block;
-  color: black;
-  text-align: right;
-  padding: 14px 16px;
-  text-decoration: none;
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
 }
+
 li a:hover:not(.active) {
-  color: cornflowerblue;
+    color: cornflowerblue;
 }
+
 .active {
-  color: cornflowerblue;
+    color: cornflowerblue;
 }
+
 .clearfix {
-  overflow: auto;
+    overflow: auto;
 }
+
 .img2 {
-  float: right;
-  padding-right: 400px;
+    float: right;
+    padding-right: 400px;
 }
+
 .readbutton {
-  background-color: cornflowerblue;
-  border: solid;
-  border-color: white;
-  border-width: thin;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+    background-color: cornflowerblue;
+    border: solid;
+    border-color: white;
+    border-width: thin;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
+
 .readbutton:hover {
-  background-color: white;
-  color: cornflowerblue;
-  text-decoration: underline;
-  text-decoration-color: cornflowerblue;
+    background-color: white;
+    color: cornflowerblue;
+    text-decoration: underline;
+    text-decoration-color: cornflowerblue;
 }
 
-
-.nav-bar{
+.nav-bar {
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -86,19 +96,113 @@ li a:hover:not(.active) {
     padding: 20px 0;
 }
 
-.services-img{
+.services-img {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.services-section{
+.services-section {
     margin: 20px 0;
 }
-.gallery-img{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: center;
-  flex-wrap: wrap;
 
+.gallery-img {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image-space {
+    margin: 25px
+}
+
+.pricing-section {
+    margin: 20px 0;
+}
+
+.pricing-img {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+
+.team-img {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.client-img {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+}
+
+.address {
+    text-align: left;
+    top: 200px;
+}
+
+.namebox {
+    background-color: black;
+    width: 500px;
+    height: 1cm;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+}
+
+.msg-box {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border-style: solid;
+    border-color: white;
+    border-width: thin;
+}
+
+.sendbutton {
+    background-color: rgb(26, 85, 194);
+    border-radius: 5px;
+    color: white;
+    padding: 7px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.sendbutton:hover {
+    background-color: white;
+    color: black;
+    text-decoration-color: cornflowerblue;
+}
+
+.footer-bg {
+    background-color: black;
+}
+
+.footer-bottom {
+    border-top: 1px solid gray;
+    padding: 25px 0;
+}
+
+.footer-bottom span {
+    display: block;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.footer-bottom span a {
+    display: inline-block;
+    color: cornflowerblue;
+    font-size: 16px;
+}
+
+.footer-bottom span a:hover {
+    color: white;
 }
